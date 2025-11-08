@@ -90,7 +90,7 @@ This enables data-driven career insights for students.
 
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/AIT_RecruitNet.git
+git clone https://github.com/bhavyadhan26/AIT_RecruitNet.git
 cd AIT_RecruitNet
 
 2️⃣ Create & Activate Virtual Environment
