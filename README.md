@@ -23,44 +23,6 @@ AI Integration	Google Gemini API (for Resume Parsing and Fit Score)
 File Handling	Django FileStorage + pdfplumber
 Version Control	Git & GitHub
 Deployment	(Localhost / planned: Render / AWS / Railway)
-🧩 Project Structure
-AIT_RecruitNet/
-│
-├── AIT_RecruitNet/
-│   ├── settings.py
-│   ├── urls.py
-│   ├── wsgi.py
-│   └── asgi.py
-│
-├── placement/
-│   ├── migrations/
-│   ├── templates/placement/
-│   │   ├── components_dashboard/
-│   │   │   ├── header.html
-│   │   │   ├── sidebar.html
-│   │   │   └── footer.html
-│   │   ├── student_my-jobs.html
-│   │   ├── student_applied_jobs.html
-│   │   └── page-sigin.html
-│   │
-│   ├── static/placement/assets_dashboard/
-│   │   ├── css/
-│   │   ├── js/
-│   │   ├── imgs/
-│   │   └── icons/
-│   │
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── forms.py
-│   ├── admin.py
-│   ├── utils/
-│   │   └── pdfparserscript.py
-│   ├── tests.py
-│   └── __init__.py
-│
-├── manage.py
-└── README.md
 
 🧱 Key Features
 🧍‍♀️ For Students
@@ -134,7 +96,7 @@ cd AIT_RecruitNet
 2️⃣ Create & Activate Virtual Environment
 python -m venv venv
 venv\Scripts\activate      # Windows
-# OR
+OR
 source venv/bin/activate   # macOS/Linux
 
 3️⃣ Install Dependencies
